@@ -1,17 +1,13 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.png";
-
 const Header = () => {
-  return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+  return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img src={logo} alt="Cash-4-Property Logo" className="h-12 w-auto" />
-            <div className="text-2xl font-bold text-foreground">
-              Cash-4-Property
-            </div>
+            <div className="text-2xl font-bold text-foreground">Cash-4-Property.com</div>
           </div>
           
           {/* Navigation */}
@@ -40,8 +36,6 @@ const Header = () => {
           </Button>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
