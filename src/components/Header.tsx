@@ -31,10 +31,6 @@ const Header = () => {
             </a>
           </nav>
           
-          {/* CTA Button */}
-          <Button variant="cta" className="hidden sm:flex">
-            Get Cash Offer
-          </Button>
           
           {/* Mobile Menu Button */}
           <Button variant="ghost" size="icon" className="md:hidden">
